@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "897529556284-9nn0c8gke15hphkj8nhnafotf9ggdlm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakakibara_tetsu.push",
+            "certificate_hash": "901627fffebe8d2b9a6941f2535c4b7b094941e3"
+          }
+        },
+        {
           "client_id": "897529556284-04f2eu5jq14vj4aprpjntuloc7etd7cc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
