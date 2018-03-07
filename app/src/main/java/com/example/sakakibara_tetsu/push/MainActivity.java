@@ -22,8 +22,5 @@ public class MainActivity extends AppCompatActivity {
 
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         Log.d(TAG, "Refreshed token: " + refreshedToken);
-
-        // 我々のサーバにトークンを送信する
-        // sendRegistrationToServer(refreshedToken);
     }
 }
