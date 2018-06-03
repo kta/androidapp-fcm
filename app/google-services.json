@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "897529556284",
+    "firebase_url": "https://push-eb934.firebaseio.com",
+    "project_id": "push-eb934",
+    "storage_bucket": "push-eb934.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897529556284:android:c814043ce5490cbf",
+        "android_client_info": {
+          "package_name": "com.example.sakakibara_tetsu.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897529556284-9nn0c8gke15hphkj8nhnafotf9ggdlm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakakibara_tetsu.push",
+            "certificate_hash": "901627fffebe8d2b9a6941f2535c4b7b094941e3"
+          }
+        },
+        {
+          "client_id": "897529556284-04f2eu5jq14vj4aprpjntuloc7etd7cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakakibara_tetsu.push",
+            "certificate_hash": "d48cfac7bf4fc58cc7b540918cf3e54071d5eb37"
+          }
+        },
+        {
+          "client_id": "897529556284-nfalabdd8ubqmdict2a3m6lean2hn957.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBejfsgpU-yA7_OutaMtya1rXbZAxBxloM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897529556284-nfalabdd8ubqmdict2a3m6lean2hn957.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
