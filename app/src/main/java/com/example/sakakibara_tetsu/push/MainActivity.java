@@ -15,10 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // ここでタグの設定をする。 このタグに対してメッセージを送るので、iOS, Androidとそれぞれ設定すると良いかも
-        FirebaseMessaging.getInstance().subscribeToTopic("Android");
-        // ここでタグの設定をする。 アプリ全体にもメッセージを送りたい場合のために、共通するタグの設定も行う
-        FirebaseMessaging.getInstance().subscribeToTopic("app");
+        // ここでトピックの設定をする。 このトピックに対してメッセージを送る
+        FirebaseMessaging.getInstance().subscribeToTopic("Topic1");
 
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         Log.d(TAG, "Refreshed token: " + refreshedToken);
